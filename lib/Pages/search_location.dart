@@ -9,7 +9,7 @@ class ChooseLocation extends StatefulWidget {
 
 class _ChooseLocationState extends State<ChooseLocation> {
   List<WordTime> locations =[
-    WordTime(location: 'london', flag: 'uk.png', url:'Europe/landon'),
+    WordTime(location: 'london', flag: 'uk.png', url:'Europe/london'),
     WordTime(location:'Athens' , flag: 'greece.png', url:'Europe/berlin' ),
     WordTime(location: 'Cairo', flag: 'egypt.png', url: 'Africa/Cairo'),
     WordTime(location: 'Nairobi', flag: 'kenya.png', url: 'Africa/Nairobi'),
@@ -17,6 +17,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
     WordTime(location: 'New_york', flag: 'usa.png', url: 'America/New_york'),
     WordTime(location: 'Seoul', flag: 'south_korea.png', url: 'Asia/Seoul'),
     WordTime(location: 'Jakarta', flag: 'indonesia.png', url: 'Asia/Jakarta'),
+    WordTime(location:'kigali',flag:'rwanda.png',url: 'Africa/kigali' )
 
   ];
   void updateTime(index) async{
